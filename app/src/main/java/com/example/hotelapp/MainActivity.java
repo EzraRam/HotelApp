@@ -40,7 +40,7 @@ public class MainActivity extends  AppCompatActivity {
         TextView setpass;
     private Button b1,b2,b3,b4,b5,b6,btn,xxxx;
 
-    private EditText QQ,ww,sign,passw,cpass;
+    private EditText QQ,ww,sign,passw,cpass,jim;
 
 
     ProgressBar ProgressBar;
