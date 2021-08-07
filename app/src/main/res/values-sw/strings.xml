@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">HotelApp</string>
+    <string name="title_activity_navigation">Navigation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery" translatable="false">Gallery</string>
+    <string name="menu_slideshow" translatable="false">Slideshow</string>
+    <string name="mycode">Elco FoodApp</string>
+    <string name="information">Elco Food App Finds you the best meal at an affordable price. Make orders evrything will be worked on within the shortest period of time.Our mission is to make our believed customer the king.</string>
+    <string name="test">Welcome To Elco food Aplication</string>
+
+    <string name="hotels">Restaurants Around Mbarara City</string>
+    <string name="ram">The best restaurants around Mbarara</string>
+    <string name="setting">Setting</string>
+    <string name="Search">Search</string>
+    <string name="logout">Logout</string>
+    <string name="title_activity_menu_bar">Menu_bar</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="foods">The Best Meal Offered At Cheap Price</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="vie">view</string>
+    <string name="agi">Agip Motel</string>
+    <string name="mode">"Elco Food together with our treasured customers, the mode of payments are besically done through Mobile Money,Airtel Money.........+256788608650 or +2560709883164, Bank account as indicated below......to reduce on the spread of covid-19:::::::::::::::::::BANK ACCOUNT AD234323232D:::::::::::::::"
+</string>
+    <string name="Welcome">Karibu</string>
+    <string name="Enteremail">Barua pepe</string>
+    <string name="password">Enywila</string>
+    <string name="signin">eka sahihi</string>
+    <string name="need_an_account">unahitaji_akaunti</string>
+    <string name="forgot_password">Umesahau nywila</string>
+
+
+    <string name="title_activity_elco_map">Map</string>
+    <string name="forgotpasswor">Forgot your password?  Enter your email address and we will send you instructions on how to reset your password ot an email will be sent to you</string>
+
+</resources>

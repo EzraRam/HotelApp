@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "963748265835",
+    "project_id": "elco-foodapp",
+    "storage_bucket": "elco-foodapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963748265835:android:35c5a29a730fa15148962e",
+        "android_client_info": {
+          "package_name": "com.example.hotelapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "963748265835-6e110dp1fjtt368gshitf1ecftcqh5vj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJ_dYICDrIgJq3QmCnVV9QFN9Rs5xW0jM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "963748265835-6e110dp1fjtt368gshitf1ecftcqh5vj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
