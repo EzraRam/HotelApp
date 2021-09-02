@@ -7,10 +7,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Activity;
 import android.app.AlertDialog;
-import android.app.Application;
 import android.app.Dialog;
 import android.app.ProgressDialog;
-import android.app.Service;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -37,16 +35,12 @@ import static android.icu.lang.UCharacter.GraphemeClusterBreak.L;
 
 public class MainActivity extends  AppCompatActivity {
 
-    private Button service;
-
         TextView signIn;
         TextView Click;
         TextView setpass;
     private Button b1,b2,b3,b4,b5,b6,btn,xxxx;
 
-
     private EditText QQ,ww,sign,passw,cpass,jim;
-    private DatabaseConnection databaseConnection;
 
 
     ProgressBar ProgressBar;
@@ -54,7 +48,6 @@ public class MainActivity extends  AppCompatActivity {
     Button SignIn,reg;
     ProgressDialog ProgressDialog;
     ProgressBar progressBar;
-
     private ProgressDialog loadingBar;
    private FirebaseAuth firebaseAuth;
     private EditText useremail,userpass;
@@ -77,22 +70,11 @@ public class MainActivity extends  AppCompatActivity {
 
 
 
-
     @Override
 
 
         protected void onCreate(Bundle savedInstanceState) {
-setContentView(R.layout.activity_main);
-
-
             super.onCreate(savedInstanceState);
-        service=findViewById(R.id.service);
-            service.setOnClickListener(new View.OnClickListener() {
-               @Override
-                public void onClick(View v) {
-                    startActivity(new Intent(MainActivity.this,myservice.class));
-               };
-            });
 
             firstname=findViewById(R.id.fname);
             lastname=findViewById(R.id.lname);
@@ -130,29 +112,17 @@ setContentView(R.layout.activity_main);
             registerActivityLink=(TextView) findViewById(R.id.register);
 
 reg=findViewById(R.id.reg);
-
 reg.setOnClickListener(new View.OnClickListener() {
     @Override
     public void onClick(View v) {
-        String getEmail=useremail.getText().toString();
-        String getPassword=password.getText().toString();
-     databaseConnection.registerUser(new Data(getEmail,getPassword));
         startActivity(new Intent(MainActivity.this,HotelRegister.class));
     }
 });
-signIn.setOnClickListener(new View.OnClickListener(){
-    public void onClick(View V){
-        String getEmail=useremail.getText().toString();
-        String getPassword=password.getText().toString();
-
-        databaseConnection.LoginUser(new Data(getEmail,getPassword));
-    }
-});
 
 
 
 
-              databaseConnection=new DatabaseConnection(this);
+
 
             signIn=findViewById(R.id.signIn);
             signIn.setOnClickListener(new View.OnClickListener(){
